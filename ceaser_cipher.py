@@ -1,4 +1,4 @@
-def caesar_cipher(text, shift, direction):
+def ceasar_cipher(text, shift, direction):
     result = ""
     for char in text:
         if char.isalpha():
@@ -15,7 +15,7 @@ def caesar_cipher(text, shift, direction):
 
 def main():
     while True:
-        print("Caesar Cipher Program")
+        print("Ceasar Cipher Program")
         print("1. Encrypt")
         print("2. Decrypt")
         print("3. Quit")
@@ -24,12 +24,12 @@ def main():
         if choice == "1":
             message = input("Enter a message to encrypt: ")
             shift = int(input("Enter a shift value: "))
-            encrypted_message = caesar_cipher(message, shift, "encrypt")
+            encrypted_message = ceasar_cipher(message, shift, "encrypt")
             print(f"Encrypted message: {encrypted_message}")
         elif choice == "2":
             message = input("Enter a message to decrypt: ")
             shift = int(input("Enter a shift value: "))
-            decrypted_message = caesar_cipher(message, shift, "decrypt")
+            decrypted_message = ceasar_cipher(message, shift, "decrypt")
             print(f"Decrypted message: {decrypted_message}")
         elif choice == "3":
             break
