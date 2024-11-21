@@ -1,6 +1,6 @@
 # Implement-Ceaser-Cipher
 Python Program that can encrypt and decrypt text using the ceaser cipher algorithm. Allow users to input a mesaage and a shift value to perform encryption and decryption.
-### 1. Function: `caesar_cipher`
+### 1. Function: `ceasar_cipher`
 
 This is the core logic for the Caesar Cipher, handling both encryption
 and decryption.
